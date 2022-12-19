@@ -1,7 +1,7 @@
 import mapAgeCleaner from 'map-age-cleaner'
 
 const CACHE_KEY = '__LAF__APP__CUSTOM__CACHE__'
-let instance: any
+let instance: Cache
 interface Entry<V> {
   maxAge: number;
   data: V;
