@@ -50,13 +50,14 @@
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "^8.1.0",
-    "expiry-map": "^2.0.0",
     "husky": "^8.0.2",
-    "map-age-cleaner": "^0.2.0",
     "size-limit": "^8.1.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.1",
     "typescript": "^4.9.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "expiry-map": "^2.0.0",
+    "map-age-cleaner": "^0.2.0"
+  }
 }
