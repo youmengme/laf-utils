@@ -1,4 +1,7 @@
 {
+  "name": "laf-utils",
+  "author": "youmeng",
+  "module": "dist/laf-utils.esm.js",
   "version": "0.1.0",
   "license": "MIT",
   "main": "dist/index.js",
@@ -32,9 +35,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "laf-utils",
-  "author": "youmeng",
-  "module": "dist/laf-utils.esm.js",
   "size-limit": [
     {
       "path": "dist/laf-utils.cjs.production.min.js",
@@ -55,6 +55,10 @@
     "size-limit": "^8.1.0",
     "tsdx": "^0.14.1",
     "tslib": "^2.4.1",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "expiry-map": "^2.0.0",
+    "map-age-cleaner": "^0.2.0"
+  },
+  "dependencies": {
   }
 }
