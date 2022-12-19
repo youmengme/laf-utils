@@ -45,7 +45,7 @@
     }
   ],
   "np": {
-    "yarn": true,
+    "yarn": false,
     "contents": "dist"
   },
   "devDependencies": {
